@@ -1,3 +1,7 @@
+# SPDX-License-Identifier: AGPL-3.0
+#
+# Maintainer: Truocolo <truocolo@aol.com>
+# Maintainer: Pellegrino Prevete (tallero) <pellegrinoprevete@gmail.com>
 # Maintainer: Johannes Löthberg <johannes@kyriasis.com>
 # Maintainer: Daniel M. Capella <polyzen@archlinux.org>
 
@@ -38,3 +42,4 @@ package() {
   ln -s "$site_packages"/imagesize-$pkgver.dist-info/LICENSE.rst \
     "$pkgdir"/usr/share/licenses/$pkgname/LICENSE.rst
 }
+
