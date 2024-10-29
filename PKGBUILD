@@ -75,7 +75,7 @@ package() {
   local \
     _site_packages
   _site_packages=$( \
-    "${py}" \
+    "${_py}" \
       -c \
         "import site; print(site.getsitepackages()[0])")
   cd \
